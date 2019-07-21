@@ -15,6 +15,7 @@ public:
     Read(std::string name);
     std::string getline();
     std::string getline(unsigned int numberOfLine);
+    int linesQuantity();
     friend class IOFile;
 };
 

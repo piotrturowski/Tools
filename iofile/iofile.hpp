@@ -6,7 +6,7 @@
 class IOFile
 {
 private:
-
+    std::string name;
 protected:
 
 public:
@@ -15,5 +15,6 @@ public:
     IOFile(std::string name);
     IOFile();
     void setFileName(std::string name);
+    void deleteFile(std::string name);
 };
 #endif // IOFILE_HPP
